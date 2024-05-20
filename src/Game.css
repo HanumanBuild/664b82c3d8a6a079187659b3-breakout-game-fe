@@ -20,3 +20,29 @@
   font-size: 24px;
   font-weight: bold;
 }
+
+/* Remove all existing styles */
+/* Add new styles here */
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+  position: relative;
+}
+
+.game-canvas {
+  border: 3px solid #fff;
+}
+
+.game-over {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+}

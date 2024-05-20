@@ -128,9 +128,9 @@ const Game = () => {
   };
 
   return (
-    <div className="game-container">
-      <canvas ref={canvasRef} width="800" height="600" className="game-canvas"></canvas>
-      {!isGameRunning && <div className="game-over">Game Over</div>}
+    <div className="flex justify-center items-center h-screen bg-gray-900 relative">
+      <canvas ref={canvasRef} width="800" height="600" className="border-4 border-blue-500"></canvas>
+      {!isGameRunning && <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-2xl font-bold">Game Over</div>}
     </div>
   );
 };

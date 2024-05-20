@@ -2,6 +2,7 @@ import React from 'react';
 import Game from './Game';
 import './App.css';
 
+// Defining the App component
 function App() {
   return (
     <div className="App">
@@ -12,4 +13,5 @@ function App() {
   );
 }
 
+// Exporting the App component
 export default App;
