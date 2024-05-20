@@ -4,8 +4,19 @@
   align-items: center;
   height: 100vh;
   background-color: #282c34;
+  position: relative;
 }
 
 .game-canvas {
   border: 2px solid #61dafb;
+}
+
+.game-over {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
 }
